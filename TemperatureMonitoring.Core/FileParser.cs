@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TemperatureMonitoring.Core
 {
-    public static class FileParser
+    public class FileParser : IFishDataParser
     {
-        public static void ParseFishData(string path)
+        public static void ParseFishData(string? path)
         {
             List<int> temps = new List<int>();
             DateTime date;
@@ -22,9 +22,8 @@ namespace TemperatureMonitoring.Core
                         temps.Add(int.Parse(temp));
                     }
                 }
-                Console.ReadLine();
             }
-            catch
+            catch (Exception ex)
             {
 
             }

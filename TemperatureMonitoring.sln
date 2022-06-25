@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureMonitoring", "Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureMonitoring.Core", "TemperatureMonitoring.Core\TemperatureMonitoring.Core.csproj", "{57D22A65-F6E6-41C8-8DD6-85DA9AF18A6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureMonitoring.Console", "TemperatureMonitoring.Console\TemperatureMonitoring.Console.csproj", "{16B41D69-CCA9-4AE1-89A7-7E354BC09283}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{57D22A65-F6E6-41C8-8DD6-85DA9AF18A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57D22A65-F6E6-41C8-8DD6-85DA9AF18A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57D22A65-F6E6-41C8-8DD6-85DA9AF18A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B41D69-CCA9-4AE1-89A7-7E354BC09283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B41D69-CCA9-4AE1-89A7-7E354BC09283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B41D69-CCA9-4AE1-89A7-7E354BC09283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B41D69-CCA9-4AE1-89A7-7E354BC09283}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
